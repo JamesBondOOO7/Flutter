@@ -1,9 +1,6 @@
 class Question {
-  String question = "";
-  bool answer = false;
-
-  Question(String q, bool a) {
-    question = q;
-    answer = a;
-  }
+  String question;
+  bool answer;
+  // Short-cut for constructors
+  Question(this.question, this.answer);
 }
